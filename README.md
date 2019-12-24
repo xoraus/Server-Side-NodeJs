@@ -1,5 +1,7 @@
 # # Server-side Development with NodeJS, Express and MongoDB
 
+---
+
 Week 1:
 
 ### Full Stack Web Development: The Big Picture: Objectives and Outcomes
@@ -36,6 +38,7 @@ In this lesson you will learn about the Express framework that enables implement
 -   Develop a web server that supports a REST API
 -   Use Express router to implement support for the REST API
 
+---
 
 Week 2:
 
