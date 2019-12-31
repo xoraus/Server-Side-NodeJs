@@ -5,7 +5,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
+const uploadRouter = require('./routes/uploadRouter');
 
 // day-8 coding
 
@@ -61,7 +61,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser()); // don't uncomment this, this causes internal server error (500)
-
+app.use('/imageUpload',uploadRouter);
 
 // user has to authenticate to acsess the files
 
